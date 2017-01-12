@@ -1,0 +1,3 @@
+github "Alamofire/Alamofire" "4.2.0"
+github "questbeat/QBImagePicker" "49b7c6c30216b91f5c6ce6e685c35a506adf4bf3"
+github "ReactiveX/RxSwift" "3.1.0"

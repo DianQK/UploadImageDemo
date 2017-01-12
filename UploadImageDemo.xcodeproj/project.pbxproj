@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26204BA91E1DED02006CA413 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26204BA81E1DED02006CA413 /* AppDelegate.swift */; };
+		26204BAB1E1DED02006CA413 /* UploadImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26204BAA1E1DED02006CA413 /* UploadImageViewController.swift */; };
+		26204BAE1E1DED02006CA413 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26204BAC1E1DED02006CA413 /* Main.storyboard */; };
+		26204BB01E1DED03006CA413 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26204BAF1E1DED03006CA413 /* Assets.xcassets */; };
+		26204BB31E1DED03006CA413 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26204BB11E1DED03006CA413 /* LaunchScreen.storyboard */; };
+		26204BBF1E1DEE5F006CA413 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26204BBB1E1DEE5F006CA413 /* RxSwift.framework */; };
+		26204BC01E1DEE5F006CA413 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26204BBC1E1DEE5F006CA413 /* RxCocoa.framework */; };
+		26204BC11E1DEE5F006CA413 /* QBImagePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26204BBD1E1DEE5F006CA413 /* QBImagePicker.framework */; };
+		26204BC21E1DEE5F006CA413 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26204BBE1E1DEE5F006CA413 /* Alamofire.framework */; };
+		26204BC51E1DF34F006CA413 /* RxQBImagePickerControllerDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26204BC41E1DF34F006CA413 /* RxQBImagePickerControllerDelegateProxy.swift */; };
+		26204BC71E1DF374006CA413 /* QBImagePickerController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26204BC61E1DF374006CA413 /* QBImagePickerController+Rx.swift */; };
+		26204BC91E1DF59B006CA413 /* PHImageManager+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26204BC81E1DF59B006CA413 /* PHImageManager+Rx.swift */; };
+		26204BCB1E1DF94D006CA413 /* UploadImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26204BCA1E1DF94D006CA413 /* UploadImageCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26204BA51E1DED02006CA413 /* UploadImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UploadImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26204BA81E1DED02006CA413 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26204BAA1E1DED02006CA413 /* UploadImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImageViewController.swift; sourceTree = "<group>"; };
+		26204BAD1E1DED02006CA413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26204BAF1E1DED03006CA413 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26204BB21E1DED03006CA413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26204BB41E1DED03006CA413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26204BBB1E1DEE5F006CA413 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		26204BBC1E1DEE5F006CA413 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		26204BBD1E1DEE5F006CA413 /* QBImagePicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QBImagePicker.framework; path = Carthage/Build/iOS/QBImagePicker.framework; sourceTree = "<group>"; };
+		26204BBE1E1DEE5F006CA413 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		26204BC41E1DF34F006CA413 /* RxQBImagePickerControllerDelegateProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxQBImagePickerControllerDelegateProxy.swift; sourceTree = "<group>"; };
+		26204BC61E1DF374006CA413 /* QBImagePickerController+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "QBImagePickerController+Rx.swift"; sourceTree = "<group>"; };
+		26204BC81E1DF59B006CA413 /* PHImageManager+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PHImageManager+Rx.swift"; sourceTree = "<group>"; };
+		26204BCA1E1DF94D006CA413 /* UploadImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadImageCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26204BA21E1DED02006CA413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26204BBF1E1DEE5F006CA413 /* RxSwift.framework in Frameworks */,
+				26204BC01E1DEE5F006CA413 /* RxCocoa.framework in Frameworks */,
+				26204BC11E1DEE5F006CA413 /* QBImagePicker.framework in Frameworks */,
+				26204BC21E1DEE5F006CA413 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26204B9C1E1DED02006CA413 = {
+			isa = PBXGroup;
+			children = (
+				26204BA71E1DED02006CA413 /* UploadImageDemo */,
+				26204BA61E1DED02006CA413 /* Products */,
+				26204BBA1E1DEE5F006CA413 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		26204BA61E1DED02006CA413 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26204BA51E1DED02006CA413 /* UploadImageDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26204BA71E1DED02006CA413 /* UploadImageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				26204BA81E1DED02006CA413 /* AppDelegate.swift */,
+				26204BAA1E1DED02006CA413 /* UploadImageViewController.swift */,
+				26204BAC1E1DED02006CA413 /* Main.storyboard */,
+				26204BAF1E1DED03006CA413 /* Assets.xcassets */,
+				26204BB11E1DED03006CA413 /* LaunchScreen.storyboard */,
+				26204BB41E1DED03006CA413 /* Info.plist */,
+				26204BC41E1DF34F006CA413 /* RxQBImagePickerControllerDelegateProxy.swift */,
+				26204BC61E1DF374006CA413 /* QBImagePickerController+Rx.swift */,
+				26204BC81E1DF59B006CA413 /* PHImageManager+Rx.swift */,
+				26204BCA1E1DF94D006CA413 /* UploadImageCollectionViewCell.swift */,
+			);
+			path = UploadImageDemo;
+			sourceTree = "<group>";
+		};
+		26204BBA1E1DEE5F006CA413 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26204BBB1E1DEE5F006CA413 /* RxSwift.framework */,
+				26204BBC1E1DEE5F006CA413 /* RxCocoa.framework */,
+				26204BBD1E1DEE5F006CA413 /* QBImagePicker.framework */,
+				26204BBE1E1DEE5F006CA413 /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26204BA41E1DED02006CA413 /* UploadImageDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26204BB71E1DED03006CA413 /* Build configuration list for PBXNativeTarget "UploadImageDemo" */;
+			buildPhases = (
+				26204BA11E1DED02006CA413 /* Sources */,
+				26204BA21E1DED02006CA413 /* Frameworks */,
+				26204BA31E1DED02006CA413 /* Resources */,
+				26204BC31E1DEE65006CA413 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UploadImageDemo;
+			productName = UploadImageDemo;
+			productReference = 26204BA51E1DED02006CA413 /* UploadImageDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26204B9D1E1DED02006CA413 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = T;
+				TargetAttributes = {
+					26204BA41E1DED02006CA413 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9Y9KG3KBHJ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 26204BA01E1DED02006CA413 /* Build configuration list for PBXProject "UploadImageDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26204B9C1E1DED02006CA413;
+			productRefGroup = 26204BA61E1DED02006CA413 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26204BA41E1DED02006CA413 /* UploadImageDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26204BA31E1DED02006CA413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26204BB31E1DED03006CA413 /* LaunchScreen.storyboard in Resources */,
+				26204BB01E1DED03006CA413 /* Assets.xcassets in Resources */,
+				26204BAE1E1DED02006CA413 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26204BC31E1DEE65006CA413 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/QBImagePicker.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26204BA11E1DED02006CA413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26204BC71E1DF374006CA413 /* QBImagePickerController+Rx.swift in Sources */,
+				26204BC51E1DF34F006CA413 /* RxQBImagePickerControllerDelegateProxy.swift in Sources */,
+				26204BAB1E1DED02006CA413 /* UploadImageViewController.swift in Sources */,
+				26204BC91E1DF59B006CA413 /* PHImageManager+Rx.swift in Sources */,
+				26204BA91E1DED02006CA413 /* AppDelegate.swift in Sources */,
+				26204BCB1E1DF94D006CA413 /* UploadImageCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		26204BAC1E1DED02006CA413 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26204BAD1E1DED02006CA413 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26204BB11E1DED03006CA413 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26204BB21E1DED03006CA413 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26204BB51E1DED03006CA413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26204BB61E1DED03006CA413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26204BB81E1DED03006CA413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9Y9KG3KBHJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = UploadImageDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.swiftgg.UploadImageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		26204BB91E1DED03006CA413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9Y9KG3KBHJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = UploadImageDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.swiftgg.UploadImageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26204BA01E1DED02006CA413 /* Build configuration list for PBXProject "UploadImageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26204BB51E1DED03006CA413 /* Debug */,
+				26204BB61E1DED03006CA413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26204BB71E1DED03006CA413 /* Build configuration list for PBXNativeTarget "UploadImageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26204BB81E1DED03006CA413 /* Debug */,
+				26204BB91E1DED03006CA413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26204B9D1E1DED02006CA413 /* Project object */;
+}
